@@ -1,0 +1,15 @@
+$kind: http-request
+order: 2000
+url: '{{base_url}}/api/pelanggan'
+method: POST
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "nama": "Budi Santoso",
+      "alamat": "Jl. Merdeka No. 10, Jakarta",
+      "jenisKelamin": "Laki-laki"
+    }

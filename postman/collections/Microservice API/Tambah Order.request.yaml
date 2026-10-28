@@ -1,0 +1,17 @@
+$kind: http-request
+order: 3000
+url: '{{base_url}}/api/order'
+method: POST
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "idProduk": 1,
+      "idPelanggan": 1,
+      "tglTransaksi": "2026-10-01",
+      "jumlah": 2,
+      "total": 30000000
+    }

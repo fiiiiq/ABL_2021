@@ -1,0 +1,3 @@
+$kind: collection
+name: Microservice API
+description: 'Collection untuk Tambah Data Produk, Pelanggan, dan Order via API Gateway (port 9001)'
